@@ -3,7 +3,7 @@ const proyectos = [
     titulo: "GuitarLa",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["html5", "sass", "css3"],
+    tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "25 Abril 2024",
     enlace: "https://devomar-guitarla.netlify.app",
@@ -14,7 +14,7 @@ const proyectos = [
     titulo: "Escuela de Cocina",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["html5", "sass", "css3"],
+    tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "24 Abril 2024",
     enlace: "https://devomar-escuelacomida.netlify.app/",
@@ -25,7 +25,7 @@ const proyectos = [
     titulo: "Carolina Spa",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["html5", "sass", "css3", "javascript"],
+    tecnologias: ["html5", "sass", "css3", "javascript", "netlify"],
     tipo: "Frontend",
     fecha: "18 Abril 2024",
     enlace: "https://devomar-carolinaspa.netlify.app",
@@ -36,7 +36,7 @@ const proyectos = [
     titulo: "Real State",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["html5", "sass", "css3"],
+    tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "13 Abril 2024",
     enlace: "https://devomar-realstate.netlify.app",
@@ -47,7 +47,7 @@ const proyectos = [
     titulo: "App Delivery",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["html5", "sass", "css3"],
+    tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "15 Marzo 2024",
     enlace: "https://devomar-appcomida.netlify.app/",
@@ -58,7 +58,7 @@ const proyectos = [
     titulo: "NotasDev",
     descripcion:
       "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
-    tecnologias: ["tailwind-css", "html5", "javascript"],
+    tecnologias: ["tailwind-css", "html5", "javascript", "netlify"],
     tipo: "Frontend",
     fecha: "12 Marzo 2024",
     enlace: "https://devomar-devnotas.netlify.app/",
@@ -68,7 +68,7 @@ const proyectos = [
   {
     titulo: "La Cafeteria",
     descripcion: "",
-    tecnologias: ["html5", "sass", "css3"],
+    tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "02 Marzo 2024",
     enlace: "https://devomar-cafeteria.netlify.app/",
@@ -78,7 +78,7 @@ const proyectos = [
   {
     titulo: "Nucleus - eWallet",
     descripcion: "",
-    tecnologias: ["css3", "html5"],
+    tecnologias: ["css3", "html5", "netlify"],
     tipo: "Frontend",
     fecha: "15 Febrero 2024",
     enlace: "https://devomar-nucleus.netlify.app/",
@@ -126,7 +126,7 @@ const proyectos = [
   {
     titulo: "TechPro",
     descripcion: "",
-    tecnologias: ["css3", "html5"],
+    tecnologias: ["css3", "html5", "netlify"],
     tipo: "Frontend",
     fecha: "03 Agosto 2023",
     enlace: "https://tech-prodev.netlify.app/",

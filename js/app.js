@@ -27,6 +27,7 @@ function mostrarProyectos(proyectos) {
       "flex-col",
       "items-center",
       "md:flex-row",
+      "md:even:flex-row-reverse",
       "md:w-full"
     );
 
@@ -36,11 +37,9 @@ function mostrarProyectos(proyectos) {
       "object-cover",
       "w-full",
       "h-auto",
-      "rounded-t-lg",
+      "rounded-lg",
       "md:h-full",
-      "md:w-1/2",
-      "md:rounded-none",
-      "md:rounded-s-lg"
+      "md:w-1/2"
     );
     proyectoImg.setAttribute("src", imagen);
     proyectoImg.setAttribute("alt", `Imagen del proyecto ${titulo}`);
@@ -90,7 +89,7 @@ function mostrarProyectos(proyectos) {
 
     //Tags de tecnologias del proyecto
     const proyectoTags = document.createElement("div");
-    proyectoTags.classList.add("flex", "gap-2");
+    proyectoTags.classList.add("flex", "gap-2", "flex-wrap");
     tecnologias.forEach((tag) => {
       const iconoContenedor = document.createElement("span");
       iconoContenedor.classList.add(
@@ -100,8 +99,9 @@ function mostrarProyectos(proyectos) {
         "items-center",
         "gap-1",
         "rounded-lg",
-        "bg-blue-900",
-        "text-blue-300",
+        "bg-orange-600",
+        "text-white",
+        'font-semibold',
         "px-3",
         "py-1",
         "text-[12px]",
@@ -114,7 +114,7 @@ function mostrarProyectos(proyectos) {
       proyectoTags.appendChild(iconoContenedor);
     });
 
-    //Enlaces Git y Demo
+    //Enlaces Demo
     const proyectoEnlaces = document.createElement("div");
     proyectoEnlaces.classList.add("flex", "gap-2", "mt-2");
     const proyectoDemo = document.createElement("a");
@@ -130,10 +130,16 @@ function mostrarProyectos(proyectos) {
       "items-center",
       "py-1",
       "px-3",
-      "bg-gray-800",
-      "rounded-xl"
+      "bg-blue-800",
+      "flex-row-reverse",
+      "rounded-xl",
+      "hover:bg-blue-950",
+      "transition",
+      "ease-in"
     );
     proyectoDemo.textContent = "Demo";
+
+    //Enlace Git
     const proyectoGithub = document.createElement("a");
     proyectoGithub.setAttribute("href", repositorio);
     proyectoGithub.setAttribute("target", "_blank");
@@ -148,12 +154,17 @@ function mostrarProyectos(proyectos) {
     proyectoGithub.classList.add(
       "text-white",
       "inline-flex",
+      "flex-row-reverse",
       "gap-2",
       "items-center",
       "py-1",
       "px-3",
-      "bg-gray-800",
-      "rounded-xl"
+      "bg-blue-800",
+      "rounded-xl",
+      "hover:bg-blue-950",
+      "transition",
+      "ease-in"
+      
     );
     proyectoGithub.textContent = "Github";
 
