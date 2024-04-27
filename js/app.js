@@ -6,8 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function mostrarProyectos(proyectos) {
-  const proyectosRecientes = proyectos.slice(0, 4);
-
+  let proyectosRecientes;
+  if (window.location.pathname === "/proyectos.html") {
+    proyectosRecientes = proyectos;
+  } else {
+    proyectosRecientes = proyectos.slice(0, 4);
+  }
   proyectosRecientes.forEach((proyecto) => {
     const {
       titulo,
@@ -101,7 +105,7 @@ function mostrarProyectos(proyectos) {
         "rounded-lg",
         "bg-orange-600",
         "text-white",
-        'font-semibold',
+        "font-semibold",
         "px-3",
         "py-1",
         "text-[12px]",
@@ -164,7 +168,6 @@ function mostrarProyectos(proyectos) {
       "hover:bg-blue-950",
       "transition",
       "ease-in"
-      
     );
     proyectoGithub.textContent = "Github";
 

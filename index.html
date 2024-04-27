@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="scroll-smooth" lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omar Solis</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -14,9 +17,10 @@
     <header class="flex justify-center py-5">
         <nav class=" p-2 flex gap-7 bg-blue-950 rounded-xl">
             <a class="text-white text-sm hover:text-blue-300 transition-all" href="#experiencia">Experencia</a>
-            <a class="text-white text-sm hover:text-blue-300 transition-all" href="#proyectos">Proyectos</a>
+            <a class="text-white text-sm hover:text-blue-300 transition-all" href="proyectos.html">Proyectos</a>
             <a class="text-white text-sm hover:text-blue-300 transition-all" href="#sobre-mi">Sobre mi</a>
-            <a class="text-white text-sm hover:text-blue-300 transition-all" href="#contacto">Contacto</a>
+            <a class="text-white text-sm hover:text-blue-300 transition-all"
+                href="mailto:omarsolisdev@gmail.com">Contacto</a>
         </nav>
     </header>
 
@@ -28,22 +32,22 @@
             <a href="src/CV_WebDeveloper_OmarFernandoSolisCarvajal.pdf" download="CV_OmarSolisWebDeveloper.pdf"
                 class="flex gap-1 py-1 px-3 items-center justify-center text-xs font-medium  rounded-xl bg-blue-900 text-white hover:bg-blue-950 transition-all ease-in"><img
                     src="src/iconos/download.svg" alt="Icono descargar">CV</a>
-            <a href="#"
+            <a href="https://www.linkedin.com/in/omar-fernando-solis/"
                 class="flex gap-1 py-1 px-3 items-center justify-center text-xs font-medium  rounded-xl bg-blue-900 text-white hover:bg-blue-950 transition-all"><img
                     src="src/iconos/linkedin.svg" alt="Icono LinkedIn">LinkedIn</a>
-            <a href="#"
+            <a href="mailto:omarsolisdev@gmail.com"
                 class="flex gap-1  py-1 px-3 items-center justify-center text-xs font-medium  rounded-xl bg-blue-900 text-white hover:bg-blue-950 transition-all"><img
                     src="src/iconos/mail.svg" alt="Icono Email">Email</a>
-            <a href="#"
+            <a href="https://github.com/Dev-socar"
                 class="flex gap-1  py-1 px-3 items-center justify-center text-xs font-medium  rounded-xl bg-blue-900 text-white hover:bg-blue-950 transition-all"><img
                     src="src/iconos/github.svg" alt="Icono Github">Github</a>
-            <a href="#"
+            <a href="https://wa.me/9831247628"
                 class="flex gap-1  py-1 px-3 items-center justify-center text-xs font-medium  rounded-xl bg-blue-900 text-white hover:bg-blue-950 transition-all"><img
                     src="src/iconos/whatsapp.svg" alt="Icono WhatsApp">WhatsApp</a>
         </div>
     </section>
 
-    <section class="mt-20 w-[85%] mx-auto">
+    <section id="experiencia" class="mt-20 w-[85%] mx-auto">
         <h2 class="text-white text-5xl">Experencia</h2>
         <ol class="relative border-s border-gray-200 dark:border-gray-700 mt-5">
             <li class="mb-10 ms-6">
@@ -96,30 +100,69 @@
         <h2 class="text-white text-5xl">Proyectos Recientes</h2>
         <div id="proyectos" class="grid gap-12  mt-5 ">
         </div>
-        <a class="w-max px-5 py-1 rounded-xl flex justify-center items-center gap-2 text-white bg-blue-800 transition-all ease-in hover:bg-blue-950 mt-5  mb-0 mx-auto text-center" href="proyectos.html"><i class='bx bx-code text-xl'></i>Portafolio Completo</a>
+        <a class="w-max px-5 py-1 rounded-xl flex justify-center items-center gap-2 text-white bg-blue-800 transition-all ease-in hover:bg-blue-950 mt-5  mb-0 mx-auto text-center"
+            href="proyectos.html"><i class='bx bx-code text-xl'></i>Portafolio Completo</a>
     </main>
 
-    <section class="mt-20 w-[85%]  mx-auto">
+    <section id="sobre-mi" class="mt-20 w-[85%]  mx-auto">
         <h2 class="text-white text-5xl">Sobre Mí</h2>
-       <div class=" mt-5 md:flex md:gap-2">
-        <div class="md:w-8/12">
-            <p class="text-white">
-                Me llamo Omar Fernando Solís Carvajal, empecé en el desarrollo web desde que tenía 18 años. <span class="text-orange-400">Actualmente trabajo como
-                freelancer desarrollando sitios o aplicaciones web a la medida.</span>
-            </p>
-            <p class="text-white mt-3">
-                A lo largo de mi experiencia, he trabajado con algunas tecnologías que se destacan en el desarrollo web como, <span class="font-semibold">PHP</span>,
-                <span class="font-semibold">HTML</span>,
-                <span class="font-semibold">SASS</span>, <span class="font-semibold">Tailwind CSS</span>, <span class="font-semibold">JavaScript</span>, <span class="font-semibold">Laravel</span> y <span class="font-semibold">CSS</span>. Así mismo manejo el software de <span class="text-orange-400 font-semibold">control de versiones Git</span> y el patrón
-                de
-                arquitectura <span class="text-orange-400 font-semibold">MVC</span>.
-            </p>
+        <div class=" mt-5 md:flex md:gap-2">
+            <div class="md:w-8/12">
+                <p class="text-white">
+                    Me llamo Omar Fernando Solís Carvajal, empecé en el desarrollo web desde que tenía 18 años. <span
+                        class="text-orange-400 font-semibold">Actualmente trabajo como
+                        freelancer desarrollando sitios o aplicaciones web a la medida.</span>
+                </p>
+                <p class="text-white mt-3">
+                    A lo largo de mi experiencia, he trabajado con algunas tecnologías que se destacan en el desarrollo
+                    web como:
+                <div class="flex gap-2 flex-wrap justify-start mt-3 items-center">
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-php text-2xl'></i>PHP</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class="fa-brands fa-laravel text-2xl"></i>Laravel</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-html5 text-2xl'></i>HTML</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-css3 text-2xl'></i>CSS</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-sass text-2xl'></i>SASS</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-tailwind-css text-2xl'></i>Tailwind CSS</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-javascript text-2xl'></i>JavaScript</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-git text-2xl'></i>Git</li>
+                    <li class="text-white gap-1 rounded-lg py-1 px-2 flex items-center  bg-orange-500 font-semibold"><i
+                            class='bx bxl-github text-2xl'></i>GitHub</li>
+                </div>
+                </p>
+                <p class="text-white mt-3">
+                    Así mismo para desarrollar proyectos FullStack manejo el <span
+                        class="text-orange-400 font-semibold">patrón de arquitectura MVC</span> y el software de control
+                    de versiones <span class="text-orange-400 font-semibold"> Git y Github</span>.
+                </p>
+            </div>
+            <div class="mt-5 md:mt-0 md:w-4/12 flex justify-center items-center">
+                <img class="h-full md:h-4/5 w-full object-cover border-2 border-white rotate-3" src="src/Perfil.png" alt="">
+            </div>
         </div>
-        <div class="w-4/12 bg-slate-700">
-
-        </div>
-       </div>
     </section>
+
+    <footer class="mt-20 pb-3 w-[85%]   mx-auto">
+        <div class="flex justify-between items-center">
+            <p class="text-white text-xs">&copy;2024 Omar Solis. Todos los derechos reservados</p>
+            <nav class="flex gap-2">
+                <a class="text-white text-xs hover:text-blue-300 transition-all ease-in"
+                    href="#experiencia">Experencia</a>
+                <a class="text-white text-xs hover:text-blue-300 transition-all ease-in"
+                    href="proyectos.html">Proyectos</a>
+                <a class="text-white text-xs hover:text-blue-300 transition-all ease-in" href="#sobre-mi">Sobre mi</a>
+                <a class="text-white text-xs hover:text-blue-300 transition-all ease-in"
+                    href="mailto:omarsolisdev@gmail.com">Contacto</a>
+            </nav>
+        </div>
+    </footer>
 
 
     <script src="js/proyectos.js"></script>

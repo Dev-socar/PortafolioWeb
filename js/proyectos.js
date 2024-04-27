@@ -2,7 +2,7 @@ const proyectos = [
   {
     titulo: "GuitarLa",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto es totalmente responsive, así mismo cuenta con alguna animación y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos.",
     tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "25 Abril 2024",
@@ -13,7 +13,7 @@ const proyectos = [
   {
     titulo: "Escuela de Cocina",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto es totalmente responsive, así mismo cuenta con alguna animación y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos y cuenta con un diseño moderno.",
     tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "24 Abril 2024",
@@ -24,7 +24,7 @@ const proyectos = [
   {
     titulo: "Carolina Spa",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto es totalmente responsive, así mismo cuenta con alguna animación y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos. De igual manera se agregó la librería Swiper.js para realizar un slider de imagenes y también un efecto de parallax.",
     tecnologias: ["html5", "sass", "css3", "javascript", "netlify"],
     tipo: "Frontend",
     fecha: "18 Abril 2024",
@@ -35,7 +35,7 @@ const proyectos = [
   {
     titulo: "Real State",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto es totalmente responsive y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos. Se uso Mixins en SASS para agilizar algunos estilos y ser más productivo.",
     tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "13 Abril 2024",
@@ -46,7 +46,7 @@ const proyectos = [
   {
     titulo: "App Delivery",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto es totalmente responsive y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos. Se uso Mixins en SASS para agilizar algunos estilos y ser más productivo.",
     tecnologias: ["html5", "sass", "css3", "netlify"],
     tipo: "Frontend",
     fecha: "15 Marzo 2024",
@@ -57,7 +57,7 @@ const proyectos = [
   {
     titulo: "NotasDev",
     descripcion:
-      "This project is made with tailwindcss, html5 and vanilla js, the design is fully responsive. In itself, this project would be like an application in which the user can create notes and they remain persistent on the page. All this was possible using LocalStorage and also validation of the forms",
+      "Este proyecto está realizado con tailwindcss, html5 y vanilla js, el diseño es totalmente responsivo. En sí mismo, este proyecto sería como una aplicación en la que el usuario puede crear notas y estas permanecen persistentes en la página. Todo esto fue posible utilizando LocalStorage y también la validación de los formularios. Usuario:Tokito Contraseña:Tokito123",
     tecnologias: ["tailwind-css", "html5", "javascript", "netlify"],
     tipo: "Frontend",
     fecha: "12 Marzo 2024",
@@ -72,22 +72,24 @@ const proyectos = [
     tipo: "Frontend",
     fecha: "02 Marzo 2024",
     enlace: "https://devomar-cafeteria.netlify.app/",
-    repositorio: "https://github.com/Dev-socar/GuitarLA",
+    repositorio: "https://github.com/Dev-socar/LaCafeter-a",
     imagen: "src/portadas/lacafeteria.png",
   },
   {
     titulo: "Nucleus - eWallet",
-    descripcion: "",
+    descripcion:
+      "Este proyecto es totalmente responsive, lo desarrollé usando la metodología BEM para que mi código CSS sea más reutilizable y mejor estructurado. También utilicé CSS Grid y Flexbox para el posicionamiento de los elementos.",
     tecnologias: ["css3", "html5", "netlify"],
     tipo: "Frontend",
     fecha: "15 Febrero 2024",
     enlace: "https://devomar-nucleus.netlify.app/",
-    repositorio: "https://github.com/Dev-socar/LaCafeter-a",
+    repositorio: "https://github.com/Dev-socar/Nucleus",
     imagen: "src/portadas/nucleus.png",
   },
   {
     titulo: "DevWebCamp",
-    descripcion: "",
+    descripcion:
+      "DevWebCamp es una aplicación web completa. Tiene inscripciones para conferencias o talleres, el usuario debe tener una cuenta y una vez creada debe seleccionar un paquete y en este punto se implementó una pasarela de pago a través de Paypal. Dentro de la aplicación, se utilizan solicitudes API. Se utilizó la biblioteca de folletos para el mapa y Chart.js para crear gráficos. Cuenta con un panel administrativo donde el administrador puede ver los ingresos, los últimos registros, programar las charlas, así como registrar a los ponentes. Se utilizó la arquitectura MVC.",
     tecnologias: [
       "css3",
       "html5",
@@ -105,7 +107,8 @@ const proyectos = [
   },
   {
     titulo: "UpTask",
-    descripcion: "",
+    descripcion:
+      "UpTask es una aplicación del tipo Lista de tareas pendientes, pero le permite crear proyectos y definir tareas en esos proyectos, así como filtrar tareas completas e incompletas. Las solicitudes al servidor se realizan a través de APIs. Asimismo, la aplicación está diseñada con la arquitectura MVC usando PHP del lado del servidor y hace uso de sesiones. Finalmente, se implementó el modo oscuro o el modo claro dependiendo del modo que tenga el usuario en su dispositivo.",
     tecnologias: ["css3", "html5", "javascript", "php"],
     tipo: "FullStack",
     fecha: "18 Septiembre 2023",
@@ -114,18 +117,9 @@ const proyectos = [
     imagen: "src/portadas/uptask.png",
   },
   {
-    titulo: "VetBlue",
-    descripcion: "",
-    tecnologias: ["css3", "html5", "javascript", "php"],
-    tipo: "FullStack",
-    fecha: "23 Mayo 2023",
-    enlace: "https://vetblue.000webhostapp.com/",
-    repositorio: "https://github.com/Dev-socar/VET_MVC",
-    imagen: "src/portadas/vetblue.png",
-  },
-  {
     titulo: "TechPro",
-    descripcion: "",
+    descripcion:
+      "En este proyecto implementé y profundicé en CSS Grid y Flexbox. Techpro es una página de inicio que se supone promociona los auriculares, con CSS Grid se diseñaron diseños más atractivos y modernos.",
     tecnologias: ["css3", "html5", "netlify"],
     tipo: "Frontend",
     fecha: "03 Agosto 2023",
@@ -134,8 +128,20 @@ const proyectos = [
     imagen: "src/portadas/techpro.png",
   },
   {
+    titulo: "VetBlue",
+    descripcion:
+      "VetBlue es una aplicación web que permite a la empresa administrar y gestionar citas. El rol de administrador puede CRUDar tus servicios, así como filtrar tus citas programadas por día y, una vez atendidas, poder eliminarlas. Por otro lado, los usuarios deben tener una cuenta en la aplicación, de lo contrario deberán crear una y verificar la cuenta que crearon vía correo electrónico. Se utilizó el patrón de arquitectura MVC.",
+    tecnologias: ["css3", "html5", "javascript", "php"],
+    tipo: "FullStack",
+    fecha: "23 Mayo 2023",
+    enlace: "https://vetblue.000webhostapp.com/",
+    repositorio: "https://github.com/Dev-socar/VET_MVC",
+    imagen: "src/portadas/vetblue.png",
+  },
+  {
     titulo: "Empresa Inmobiliaria Corpesa",
-    descripcion: "",
+    descripcion:
+      "Este sitio web cuenta con un panel administrativo, en ese panel el administrador puede realizar un CRUD de las propiedades. Asimismo, implementé la API de Google Maps para que al crear una propiedad se pueda seleccionar mediante un pin de ubicación.",
     tecnologias: ["css3", "html5", "php", "javascript"],
     tipo: "FullStack",
     fecha: "12 Diciembre 2022",
