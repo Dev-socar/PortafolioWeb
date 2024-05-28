@@ -1,14 +1,29 @@
 const contenedorProyectos = document.querySelector("#proyectos");
+//objeto de la buscado
+const datosBusqueda = {
+  tipo:""
+};
 
 //eventos
 document.addEventListener("DOMContentLoaded", () => {
   mostrarProyectos(proyectos);
+  if (window.location.pathname === "/proyectos.html") {
+    proyectosRecientes = proyectos;
+    const tipoProyecto = document.querySelector("#tipo");
+    tipoProyecto.addEventListener('change', (e) => {
+      datosBusqueda.tipo = e.target.value
+      filtrarProyecto()
+    })
+    return
+  }
 });
 
 function mostrarProyectos(proyectos) {
+  limpiarHTML()
   let proyectosRecientes;
   if (window.location.pathname === "/proyectos.html") {
     proyectosRecientes = proyectos;
+    const tipoProyecto = document.querySelector("#tipo");
   } else {
     proyectosRecientes = proyectos.slice(0, 4);
   }
@@ -190,4 +205,35 @@ function mostrarProyectos(proyectos) {
     //Agregar proyectos al contenedor
     contenedorProyectos.appendChild(proyectoArticle);
   });
+}
+// limpiar HTML
+function limpiarHTML() {
+  while (contenedorProyectos.firstChild) {
+    contenedorProyectos.removeChild(contenedorProyectos.firstChild);
+  }
+}
+
+function filtrarProyecto() {
+  const resultado = proyectos.filter(filtrarTipo)
+  if (resultado.length) {
+    mostrarProyectos(resultado);
+  } else {
+    noResultado();
+  }
+}
+
+function filtrarTipo(proyecto) {
+  const { tipo } = datosBusqueda;
+  if (tipo) {
+    return proyecto.tipo === tipo;
+  }
+  return proyecto;
+}
+
+function noResultado() {
+  limpiarHTML();
+  const noResultado = document.createElement("div");
+  noResultado.classList.add("text-white", "text-center", 'text-lg');
+  noResultado.textContent = "No hay proyectos de este tipo.";
+  contenedorProyectos.appendChild(noResultado);
 }
