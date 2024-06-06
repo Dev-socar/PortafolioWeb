@@ -7,7 +7,7 @@ const datosBusqueda = {
 //eventos
 document.addEventListener("DOMContentLoaded", () => {
   mostrarProyectos(proyectos);
-  if (window.location.pathname === "/proyectos.html") {
+  if (window.location.pathname === "/proyectos") {
     proyectosRecientes = proyectos;
     const tipoProyecto = document.querySelector("#tipo");
     tipoProyecto.addEventListener('change', (e) => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function mostrarProyectos(proyectos) {
   limpiarHTML()
   let proyectosRecientes;
-  if (window.location.pathname === "/proyectos.html") {
+  if (window.location.pathname === "/proyectos") {
     proyectosRecientes = proyectos;
     const tipoProyecto = document.querySelector("#tipo");
   } else {
