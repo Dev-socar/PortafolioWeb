@@ -1,5 +1,16 @@
 const proyectos = [
   {
+    titulo: "CarShop",
+    descripcion:
+      "Este proyecto consiste en poder agregar a una seccion de Favoritos, diferentes autos y poder ver la descripcion de cada uno de ellos. Asi mismo, para la obtenecion de los datos se emplea la api de Fetch y asi mismo se realiza la peticion a una API externa. Para que los datos sean persistentes se almacenan en el localstorage.",
+    tecnologias: ["html5", "javascript", "tailwind-css", "netlify"],
+    tipo: "Frontend",
+    fecha: "5 Junio 2024",
+    enlace: "https://devomar-carshop.netlify.app/",
+    repositorio: "https://github.com/Dev-socar/CarShop/tree/dev",
+    imagen: "src/portadas/carshop.png",
+  },
+  {
     titulo: "GuitarLa",
     descripcion:
       "Este proyecto es totalmente responsive, así mismo cuenta con alguna animación y también fué implementado usando SASS con CSS Grid y Flexbox para la distribución de los elementos.",
