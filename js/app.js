@@ -69,6 +69,15 @@ function mostrarProyectos(proyectos) {
     );
     proyectoTitulo.textContent = titulo;
 
+    const tipoProyecto = document.createElement("p");
+    tipoProyecto.classList.add(
+      "mb-1",
+      "text-xl",
+      "tracking-tight",
+      "text-white"
+    );
+    tipoProyecto.textContent = `Proyecto ${tipo}`;
+
     //Fecha del proyecto
     const proyectoFecha = document.createElement("time");
     proyectoFecha.classList.add(
@@ -178,6 +187,7 @@ function mostrarProyectos(proyectos) {
     proyectoEnlaces.appendChild(proyectoGithub);
     //Agregar elementos al div de la informacion
     proyectoContenido.appendChild(proyectoTitulo);
+    proyectoContenido.appendChild(tipoProyecto);
     proyectoContenido.appendChild(proyectoFecha);
     proyectoContenido.appendChild(proyectoTags);
     proyectoContenido.appendChild(proyectoDescripcion);
