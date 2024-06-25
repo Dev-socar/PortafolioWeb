@@ -1,5 +1,16 @@
 const proyectos = [
   {
+    titulo: "Abarrotes Dev",
+    descripcion:
+      "Este proyecto consiste en poder agregar a una seccion de Favoritos, diferentes autos y poder ver la descripcion de cada uno de ellos. Asi mismo, para la obtenecion de los datos se emplea la api de Fetch y asi mismo se realiza la peticion a una API externa. Para que los datos sean persistentes se almacenan en el localstorage.",
+    tecnologias: ["html5", "javascript", "tailwind-css"],
+    tipo: "FullStack",
+    fecha: "24 Junio 2024",
+    enlace: "https://abarrotesdevs.onrender.com/",
+    repositorio: "https://github.com/Dev-socar/abarrotesDevs",
+    imagen: "src/portadas/abarrotesdev.png",
+  },
+  {
     titulo: "CarShop",
     descripcion:
       "Este proyecto consiste en poder agregar a una seccion de Favoritos, diferentes autos y poder ver la descripcion de cada uno de ellos. Asi mismo, para la obtenecion de los datos se emplea la api de Fetch y asi mismo se realiza la peticion a una API externa. Para que los datos sean persistentes se almacenan en el localstorage.",
