@@ -1,5 +1,15 @@
 const proyectos = [
   {
+    titulo: "Cotizador de Prestamos",
+    descripcion:"Este proyecto simula una tienda virtual, es decir se puede realizar un CRUD en el panel de adminsitrador de articulos para vender. Este proyecto fue desarrollado con node.js, el framework express.js, asi mismo se uso el motor de plantillas Pug y para la base de datos se empleo Sequelize para acceder a la base de datos MySQL. Finalmente se implemento autenticacion mediante JWT. Las credenciales son: usuario:admin, password:admin123",
+    tecnologias: ["netlify","react", "tailwind-css"],
+    tipo: "Frontend",
+    fecha: "26 Junio 2024",
+    enlace: "https://devomar-cotizadorprestamos-react.netlify.app/",
+    repositorio: "https://github.com/Dev-socar/cotizador-prestamos-react",
+    imagen: "src/portadas/cotizador_react.png",
+  },
+  {
     titulo: "Abarrotes Dev",
     descripcion:"Este proyecto simula una tienda virtual, es decir se puede realizar un CRUD en el panel de adminsitrador de articulos para vender. Este proyecto fue desarrollado con node.js, el framework express.js, asi mismo se uso el motor de plantillas Pug y para la base de datos se empleo Sequelize para acceder a la base de datos MySQL. Finalmente se implemento autenticacion mediante JWT. Las credenciales son: usuario:admin, password:admin123",
     tecnologias: ["nodejs","javascript", "tailwind-css"],
