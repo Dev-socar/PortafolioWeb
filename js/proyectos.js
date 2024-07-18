@@ -1,5 +1,15 @@
 const proyectos = [
   {
+    titulo: "StoreDev",
+    descripcion:"Proyecto realizado con Vue3 usando Composition API, asi como el uso del localStorage para hacer persistente la funcionalidad del carro de compras. Se empleo el framework TailwindCss para los estilos y tambien se uso Vite",
+    tecnologias: ["vuejs", "tailwind-css"],
+    tipo: "Frontend",
+    fecha: "18 Julio 2024",
+    enlace: "https://store-dev-sigma.vercel.app/",
+    repositorio: "https://github.com/Dev-socar/storeDev",
+    imagen: "src/portadas/storedev.png",
+  },
+  {
     titulo: "CarShop",
     descripcion:
       "Este proyecto consiste en poder agregar a una seccion de Favoritos, diferentes autos y poder ver la descripcion de cada uno de ellos. Asi mismo, para la obtenecion de los datos se emplea la api de Fetch y asi mismo se realiza la peticion a una API externa. Para que los datos sean persistentes se almacenan en el localstorage.",
