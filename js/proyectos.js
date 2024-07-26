@@ -1,5 +1,15 @@
 const proyectos = [
   {
+    titulo: "Administrador de Empleados",
+    descripcion:"Proyecto realizado con Vue3 usando Composition API, asi como el uso del localStorage para hacer persistente los datos. Se empleo el framework TailwindCss para los estilos y tambien se uso Vite",
+    tecnologias: ["vuejs", "tailwind-css"],
+    tipo: "Frontend",
+    fecha: "26 Julio 2024",
+    enlace: "https://devomar-administrador-empleados-vue.vercel.app/",
+    repositorio: "https://github.com/Dev-socar/administrador-empleados-vue",
+    imagen: "src/portadas/adminEmpleados_vue.png",
+  },
+  {
     titulo: "StoreDev",
     descripcion:"Proyecto realizado con Vue3 usando Composition API, asi como el uso del localStorage para hacer persistente la funcionalidad del carro de compras. Se empleo el framework TailwindCss para los estilos y tambien se uso Vite",
     tecnologias: ["vuejs", "tailwind-css"],
