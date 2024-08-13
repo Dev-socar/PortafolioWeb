@@ -3,7 +3,7 @@ const proyectos = [
     titulo: "CRM - Dev",
     descripcion:"Proyecto realizado usando el patrón de arquitectura MVC con PHP 8.3 junto con la base de datos MySQL. Cuenta con rutas protegitas, passwords hasheados, uso de sesiones asi como el manejo de usuario. Se implemento la libreria FullCalendar, Fetch API, el uso de Modulos en Javascript. Finalmente se usa el framework de css llamado Tailwind CSS. La cuenta de demo es: omar@correo y omar123.",
     tecnologias: ["php", "tailwind-css", "javascript"],
-    tipo: "Fullstack",
+    tipo: "FullStack",
     fecha: "13 Agosto 2024",
     enlace: "http://devomar-crmdev.x10.mx/",
     repositorio: "https://github.com/Dev-socar/CRM-Dev",
