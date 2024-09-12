@@ -1,6 +1,16 @@
 const proyectos = [
   {
     titulo: "CRM - Dev",
+    descripcion:"Proyecto realizado con Vue.js mediante Composition API, este proyecto fue realizado integrando una API, el uso de composables, asi como validacion de formulario y tambien el uso de Fetch API para las peticiones. Finalmente se implementa la libreria Vue Tippy para mejorar la experiencia de usuario.",
+    tecnologias: ["vuejs", "css3", "javascript"],
+    tipo: "Frontend",
+    fecha: "12 Septiembre 2024",
+    enlace: "https://dev-coctail.vercel.app/",
+    repositorio: "https://github.com/Dev-socar/dev-Coctail",
+    imagen: "src/portadas/coctail.png",
+  },
+  {
+    titulo: "CRM - Dev",
     descripcion:"Proyecto realizado usando el patrón de arquitectura MVC con PHP 8.3 junto con la base de datos MySQL. Cuenta con rutas protegitas, passwords hasheados, uso de sesiones asi como el manejo de usuario. Se implemento la libreria FullCalendar, Fetch API, el uso de Modulos en Javascript. Finalmente se usa el framework de css llamado Tailwind CSS. La cuenta de demo es: alex@correo.com y alex123.",
     tecnologias: ["php", "tailwind-css", "javascript"],
     tipo: "FullStack",
