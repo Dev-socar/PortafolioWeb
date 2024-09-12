@@ -1,6 +1,6 @@
 const proyectos = [
   {
-    titulo: "CRM - Dev",
+    titulo: "Dev-Coctail",
     descripcion:"Proyecto realizado con Vue.js mediante Composition API, este proyecto fue realizado integrando una API, el uso de composables, asi como validacion de formulario y tambien el uso de Fetch API para las peticiones. Finalmente se implementa la libreria Vue Tippy para mejorar la experiencia de usuario.",
     tecnologias: ["vuejs", "css3", "javascript"],
     tipo: "Frontend",
